@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MakeMyTrip]">
+  <test name="BookMyFlight(failed)">
+    <classes>
+      <class name="DriverScript.Driver_File">
+        <methods>
+          <include name="tear_Down"/>
+          <include name="get_no_Of_To_Flights"/>
+          <include name="setup"/>
+          <include name="get_no_Of_Rt_Flights"/>
+          <include name="get_select_Flights_Validate_Total"/>
+        </methods>
+      </class> <!-- DriverScript.Driver_File -->
+    </classes>
+  </test> <!-- BookMyFlight(failed) -->
+</suite> <!-- Failed suite [MakeMyTrip] -->

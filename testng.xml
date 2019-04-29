@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MakeMyTrip">
+  <test name="BookMyFlight">
+  <classes>
+	  	<class name="DriverScript.Driver_File"/>
+	  	<!-- class name="appModules.SearchFlights_Action"/>  -->
+	  	<!-- <class name="PageObjects.SearchFlights"/> -->
+  	</classes>
+  </test> <!-- MakeMyTrip -->
+</suite> <!-- Suite -->

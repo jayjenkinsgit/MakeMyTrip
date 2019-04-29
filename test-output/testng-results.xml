@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="MakeMyTrip" duration-ms="16454" started-at="2019-04-29T01:37:20Z" finished-at="2019-04-29T01:37:37Z">
+    <groups>
+    </groups>
+    <test name="BookMyFlight" duration-ms="16454" started-at="2019-04-29T01:37:20Z" finished-at="2019-04-29T01:37:37Z">
+      <class name="DriverScript.Driver_File">
+        <test-method status="PASS" signature="setup()[pri:0, instance:DriverScript.Driver_File@3a03464]" name="setup" is-config="true" duration-ms="11147" started-at="2019-04-28T21:37:09Z" finished-at="2019-04-28T21:37:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verify_Search_Flights()[pri:0, instance:DriverScript.Driver_File@3a03464]" name="verify_Search_Flights" duration-ms="4427" started-at="2019-04-28T21:37:20Z" finished-at="2019-04-28T21:37:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Search_Flights -->
+        <test-method status="PASS" signature="get_no_Of_To_Flights()[pri:0, instance:DriverScript.Driver_File@3a03464]" name="get_no_Of_To_Flights" duration-ms="8477" started-at="2019-04-28T21:37:25Z" finished-at="2019-04-28T21:37:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_no_Of_To_Flights -->
+        <test-method status="PASS" signature="get_no_Of_Rt_Flights()[pri:0, instance:DriverScript.Driver_File@3a03464]" name="get_no_Of_Rt_Flights" duration-ms="856" started-at="2019-04-28T21:37:33Z" finished-at="2019-04-28T21:37:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_no_Of_Rt_Flights -->
+        <test-method status="PASS" signature="get_select_Flights_Validate_Total()[pri:0, instance:DriverScript.Driver_File@3a03464]" name="get_select_Flights_Validate_Total" duration-ms="2682" started-at="2019-04-28T21:37:34Z" finished-at="2019-04-28T21:37:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_select_Flights_Validate_Total -->
+        <test-method status="PASS" signature="tear_Down()[pri:0, instance:DriverScript.Driver_File@3a03464]" name="tear_Down" is-config="true" duration-ms="730" started-at="2019-04-28T21:37:37Z" finished-at="2019-04-28T21:37:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_Down -->
+      </class> <!-- DriverScript.Driver_File -->
+    </test> <!-- BookMyFlight -->
+  </suite> <!-- MakeMyTrip -->
+</testng-results>
