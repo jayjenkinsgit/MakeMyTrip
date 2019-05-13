@@ -3,6 +3,7 @@ package DriverScript;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.commons.exec.util.StringUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -26,9 +27,22 @@ public class Driver_File {
 		 //This is to open the Excel file. Excel path, file name and the sheet name are parameters to this method
 		//@BeforeMethod	
         //ExcelUtils.setExcelFile(Constant.Path_TestData + Constant.File_TestData,"Sheet1");
+        String path=System.getProperty("user.dir");
+        
+        System.out.println(path);
+        System.out.println(System.getProperty("os.name"));
+        
+        //org.apache.commons.lang3.StringUtils.containsIgnoreCase("System.getProperty(\"os.name\"))", "windows");
+        
+        
+        
+        if ((System.getProperty("os.name")).toLowerCase().contains("windows"))
+        {        
+        System.setProperty("webdriver.chrome.driver", path+"\\resources\\chromedriver.exe");
+        }
         
          
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\jakrishn\\Documents\\Jai\\Personal\\Selenium\\chromedriver_win32_72\\chromedriver.exe");
+        //System.setProperty("webdriver.chrome.driver", "C:\\Users\\jakrishn\\Documents\\Jai\\Personal\\Selenium\\chromedriver_win32_72\\chromedriver.exe");
         //driver = new ChromeDriver();
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--incognito");
